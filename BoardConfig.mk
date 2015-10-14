@@ -21,6 +21,8 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
 CLANG_O3 := true
 STRICT_ALIASING := true
+KRAIT_TUNINGS := true
+GRAPHITE_OPTS := true
 TARGET_NO_BOOTLOADER := true
  
 # Inline kernel building
