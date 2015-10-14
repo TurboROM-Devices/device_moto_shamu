@@ -19,7 +19,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
-
+CLANG_O3 := true
 TARGET_NO_BOOTLOADER := true
  
 # Inline kernel building
