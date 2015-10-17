@@ -23,7 +23,7 @@ CLANG_O3 := true
 STRICT_ALIASING := true
 KRAIT_TUNINGS := true
 GRAPHITE_OPTS := true
-GCC_ONLY := true
+ENABLE_GCCONLY := true
 TARGET_NO_BOOTLOADER := true
  
 # Inline kernel building
