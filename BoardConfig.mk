@@ -99,7 +99,7 @@ TARGET_CRYPTFS_HW_PATH := device/moto/shamu/cryptfs_hw
 ifeq ($(HOST_OS),linux)
   ifeq ($(TARGET_BUILD_VARIANT),user)
     ifeq ($(WITH_DEXPREOPT),)
-      WITH_DEXPREOPT := true
+      WITH_DEXPREOPT := false
     endif
   endif
 endif
