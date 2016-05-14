@@ -1,0 +1,14 @@
+[
+  {
+    "remote":     "github",  
+    "repository": "TheLoonyBin/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "branch": "mm6.0"
+  },
+  {
+    "remote":      "github",  
+    "repository": "TipsyOs-Devices/Shamu_Drunk_Kernel",
+    "target_path": "kernel/motorola/shamu",
+    "branch": "6.0"
+  }
+]
