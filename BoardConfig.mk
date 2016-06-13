@@ -28,15 +28,15 @@ TARGET_KERNEL_CONFIG := shamu_defconfig
 TARGET_KERNEL_SOURCE := kernel/moto/shamu
 
 # Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.x-uber/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.x/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Rom Toolchain
-TARGET_GCC_VERSION_EXP := 5.x-uber
+TARGET_GCC_VERSION_EXP := 5.x
 
 #Opts
 CLANG_O3 := true
-STRICT_ALIASING := false
+STRICT_ALIASING := true
 KRAIT_TUNINGS := true
 GRAPHITE_OPTS := true
 ENABLE_GCCONLY := true
